@@ -565,38 +565,38 @@ SET(
 OPTION(
 	VMIME_HAVE_MESSAGING_FEATURES
 	"Enable messaging features (connection to IMAP, POP3, SMTP...)"
-	ON
+	OFF
 )
 
 # Protocols
 OPTION(
 	VMIME_HAVE_MESSAGING_PROTO_POP3
 	"Enable POP3 protocol"
-	ON
+	OFF
 )
 
 OPTION(
 	VMIME_HAVE_MESSAGING_PROTO_SMTP
 	"Enable SMTP protocol"
-	ON
+	OFF
 )
 
 OPTION(
 	VMIME_HAVE_MESSAGING_PROTO_IMAP
 	"Enable IMAP protocol"
-	ON
+	OFF
 )
 
 OPTION(
 	VMIME_HAVE_MESSAGING_PROTO_MAILDIR
 	"Enable Maildir protocol"
-	ON
+	OFF
 )
 
 OPTION(
 	VMIME_HAVE_MESSAGING_PROTO_SENDMAIL
 	"Enable Sendmail protocol"
-	ON
+	OFF
 )
 
 
