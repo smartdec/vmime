@@ -1074,11 +1074,11 @@ IF(VMIME_HAVE_MESSAGING_FEATURES AND VMIME_HAVE_MESSAGING_PROTO_MAILDIR AND NOT 
 ENDIF()
 
 # Path to 'sendmail' must be specified if Sendmail protocol is enabled
-IF(VMIME_HAVE_MESSAGING_PROTO_SENDMAIL)
-	IF(NOT VMIME_SENDMAIL_PATH OR VMIME_SENDMAIL_PATH STREQUAL "")
-		MESSAGE(FATAL_ERROR "Enabling Sendmail protocol requires that you specify path to 'sendmail' binary.")
-	ENDIF()
-ENDIF()
+#IF(VMIME_HAVE_MESSAGING_PROTO_SENDMAIL)
+#	IF(NOT VMIME_SENDMAIL_PATH OR VMIME_SENDMAIL_PATH STREQUAL "")
+#		MESSAGE(FATAL_ERROR "Enabling Sendmail protocol requires that you specify path to 'sendmail' binary.")
+#	ENDIF()
+#ENDIF()
 
 
 ##############################################################################
